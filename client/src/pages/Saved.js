@@ -33,19 +33,21 @@ class Saved extends Component {
   render() {
     return (
       <Container>
-        <Row>
+       <Row>
           <Col size="md-12">
-            <Jumbotron>
+            <div className="flex-col flex-center jumbo">
               <h1 className="text-center">
                 <strong>(React) Google Books Search</strong>
               </h1>
               <h2 className="text-center">Search for and Save Books of Interest.</h2>
-            </Jumbotron>
+            </div>
           </Col>
+          <Col size="md-12">
+           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <Card title="Saved Books" icon="download">
+            <div className="results white" title="Saved Books" icon="download">
               {this.state.books.length ? (
                 <List>
                   {this.state.books.map(book => (
@@ -71,10 +73,10 @@ class Saved extends Component {
               ) : (
                 <h2 className="text-center">No Saved Books</h2>
               )}
-            </Card>
+            </div>
           </Col>
         </Row>
-        <Footer />
+       
       </Container>
     );
   }

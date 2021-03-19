@@ -3,7 +3,7 @@
 
 html,body{
 
-    background: linear-gradient(45deg, rgb(167, 203, 238), rgb(139, 139, 185),rgb(117, 117, 245)) !important;   
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(41, 41, 41),rgb(34, 34, 34)) !important;   
     
     background-attachment: fixed;
     height: 100vh;
@@ -18,6 +18,10 @@ html,body{
      display: flex !important;
      
 
+ }
+
+ a{
+     color: rgb(56, 158, 158) !important;
  }
 
  .menu-button{
