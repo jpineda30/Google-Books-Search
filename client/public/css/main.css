@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Nunito+Sans:wght@600&display=swap');
+
+html,body{
+
+    background: linear-gradient(45deg, rgb(167, 203, 238), rgb(139, 139, 185),rgb(117, 117, 245)) !important;   
+    
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+ .navbar{
+     padding: 0 !important;
+     margin: 0 !important;
+     display: flex !important;
+     
+
+ }
+
+ .menu-button{
+    
+     width: 100px;
+     border-bottom: cadetblue;
+     border-bottom-width: 2px;
+     border-bottom-style: solid ;
+   
+    line-height: 68px;
+ }
+
+ .menu-button:hover{
+    background-color: rgb(250, 245, 245);
+    line-height: 65px;
+    border-bottom-width: 5px;
+   
+}
+
+ .menu-button a{
+    
+    text-align: center;
+}
+
+
+ .title{
+    
+     font-size: large;
+     color: blue;
+     line-height: 68px;
+     margin-right:10px ;
+     margin-left: 10px;
+     padding: 0 !important;
+     margin-bottom: 0 !important;
+ }
+
+
+ .mainMenu{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 !important;
+    padding: 0 !important;
+ }
+
+ #root{
+     background-color: rgba(255, 255, 255, 0.678) !important;
+     height: 100vh;
+ }
+
+ .jumbo{
+     padding: 20px;
+     background-color: whitesmoke;
+     margin:10px;
+ }
+
+ .white{
+   
+    background-color: whitesmoke;
+    
+}
+
+
+ .search{
+     min-width: 250px;
+     padding: 10px;
+ }
+
+
+ .btn-blue{
+     color: white;
+     background-color:cadetblue; 
+     transition: .3s;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
+ .btn-blue:hover{
+     box-shadow: none;
+
+}
+
+.results{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 100%;
+    min-height: 50vh;
+}
